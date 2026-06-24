@@ -1,0 +1,19 @@
+seed: 159
+n_candidates: 64
+n_predictors: 18
+top_k: 10
+teleport_alpha: 0.18
+teleport_steps: 80
+ctqw_time: 1.75
+kernel_weights:
+  presentation: 0.22
+  processing_expression: 0.20
+  immunogenicity: 0.12
+  chemistry: 0.18
+  manufacturability: 0.10
+  redundancy: 0.10
+  transport_prior: 0.08
+endpoint_separation:
+  endpoints_excluded_from_ranking: [audit_positive, pepmix, cd34_hpc_total, cd34_cd45dim_parent]
+  candidate_id_excluded: true
+  peptide_excluded: true

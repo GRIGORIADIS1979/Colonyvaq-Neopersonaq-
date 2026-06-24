@@ -1,0 +1,45 @@
+{
+  "affinity_sha256": "38bee7068e00a41d377ae78a9255dcd72822c7f9bb67f928ba2dca101ef26597",
+  "endpoint_separation": {
+    "candidate_id_excluded": true,
+    "endpoint_columns_excluded": [
+      "audit_positive",
+      "pepmix",
+      "cd34_hpc_total",
+      "cd34_cd45dim_parent"
+    ],
+    "endpoint_separated": true,
+    "feature_columns": [
+      "hla_binding_score",
+      "binding_percentile_rank",
+      "netmhcpan_style_score",
+      "mhcflurry_style_processing",
+      "rna_expression_log2",
+      "dna_naf",
+      "rna_naf",
+      "clonality_prior",
+      "immunogenicity_prior",
+      "docking_support",
+      "contact_persistence",
+      "rmsd_stability",
+      "rmsf_stability",
+      "manufacturability",
+      "redundancy_penalty",
+      "ctqw_support_prior",
+      "teleport_consensus_prior",
+      "reserve_margin_prior"
+    ],
+    "peptide_excluded": true
+  },
+  "matrix_sha256": "e2a3ecb1496981d71bf470655f64edbf6a2b1c895289617d55981dd6771746f2",
+  "n_candidates": 64,
+  "n_predictors": 18,
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "ranked_candidates_sha256": "0da4690a31f715306089d32a02f7e5462418b2fc5899cbf860631be4a8e2f953",
+  "seed": 159,
+  "teleport_consensus_sha256": "8b09b1d422514235ef3de37846374bf14a0d3be6fe5bfe8a933df6f038e5d4fe",
+  "top_k": 10
+}
